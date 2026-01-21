@@ -13,6 +13,7 @@ A concise repository for exploratory data analysis (EDA) and classification on I
 - [Model/](Model/README.md) — Detailed description, libraries, plots, and conclusions.
 - [Model/air-quality-eda-and-classification.ipynb](Model/air-quality-eda-and-classification.ipynb) — Main notebook for EDA and modeling.
 
+
 ## Data
 - Source: https://www.kaggle.com/rohanrao/air-quality-data-in-india
 - Place raw files in `Dataset/` or point the notebook to your local dataset path.
@@ -23,6 +24,7 @@ A concise repository for exploratory data analysis (EDA) and classification on I
 - pip
 - VS Code or Jupyter
 
+
 ### Setup (Windows)
 ```powershell
 # (Optional) create a virtual environment
@@ -32,7 +34,7 @@ python -m venv .venv
 # Install required packages
 pip install numpy pandas scikit-learn xgboost seaborn matplotlib missingno chart_studio cufflinks jupyter
 
-# Launch Jupyter (or open the notebook in VS Code)
+# Launch Jupyter
 jupyter notebook
 ```
 
